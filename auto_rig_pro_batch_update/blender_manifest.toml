@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+id = "auto_rig_pro_batch_update"
+version = "1.0.0"
+name = "Auto-Rig Pro: Batch Rig Update"
+tagline = "Update Auto-Rig Pro rigs across a list of Blender scenes"
+maintainer = "Phil"
+type = "add-on"
+website = "http://localhost"
+tags = ["Rigging", "Animation"]
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Read scene-list JSON files and save updated Blender scenes"
